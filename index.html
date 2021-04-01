@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>Kelvin Luu</title>
+    <link rel="stylesheet" href="./pandoc.css">
+
+    <style>
+        td {
+            padding: 0 3em 0 0;
+        }
+
+        tbody {
+            margin-top: 0;
+            border-top: none;
+            border-bottom: none;
+        }
+
+        table {
+            margin: 0;
+        }
+
+        pre {
+            margin: 0;
+        }
+
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        li.shell {
+            list-style-type: "$  ";
+        }
+
+        li.split {
+            list-style-type: ">  ";
+        }
+
+        li.stdout {
+            list-style-type: "";
+        }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+    <ul>
+        <li class="shell">
+            <pre><code>whois kelvinluu.com | \</code></pre>
+        </li>
+        <li class="split">
+            <pre><code>   sed -n '/^contact: *organization/,/^e-mail/p'</code></pre>
+        </li>
+        <li class="stdout">
+
+            <table>
+                <tr>
+                    <td><code>contact:</code></td>
+                    <td><code>organization</code></td>
+                </tr>
+                <tr>
+                    <td><code>name:</code></td>
+                    <td><code>Kelvin Luu</code></td>
+                </tr>
+                <tr>
+                    <td><code>...</code></td>
+                </tr>
+                <tr>
+                    <td><code>e-mail:</code></td>
+                    <td><code>web@kelvinluu.com</code></td>
+                </tr>
+
+            </table>
+
+        </li>
+        <li class="shell"><code>0kl upgrade</code></li>
+        <li class="stdout"><code>Upgrading kelvinluu.com 0.1 -> 1.0</code></li>
+        <li class="stdout"><code>Downloading from mttp://kelvinluu.brain/website/content</code></li>
+        <li class="stdout"><code>###              10%</code></li>
+    </ul>
+
+</body>
+
+</html>
